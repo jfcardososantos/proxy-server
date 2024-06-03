@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Expor a porta em que o servidor estará rodando
-EXPOSE 3000
+EXPOSE 3001
 
 # Comando para rodar o servidor
 CMD ["node", "server.js"]

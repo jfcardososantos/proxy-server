@@ -3,7 +3,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 const cors = require('cors');
 
 const app = express();
-const PORT = 3000; // Pode mudar para qualquer porta que desejar
+const PORT = 3001; // Pode mudar para qualquer porta que desejar
 
 // Habilitar CORS para todas as rotas
 app.use(cors());
